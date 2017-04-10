@@ -1,0 +1,109 @@
+body {
+	 background: lavender;
+	 -moz-transition:background 10s ease;
+	 -o-transition:background 10s ease; 
+	 -ms-transition:background 10s ease;
+	 -webkit-transition:background 10s ease;
+	 transition:background 10s ease;
+}
+	 body:hover{background: #4D5656;
+ }
+ #header{
+ width: 100%;
+ background:#4D5656;
+ border-bottom-style:solid;
+ border-bottom-width:thin;
+ }
+ #h1{color: orange;
+ }
+ #p1{color: orange;
+ font-size:12px;
+ position: relative;
+ top:-1em;
+ }
+ #im1{width: 40%;
+ height: auto;
+ position: relative;
+ top:0px;
+ }
+ #d1{width: 80%;
+ position: relative;
+ left:2em;
+ top:2em;
+ border-bottom-style:solid;
+ border-bottom-width:thin;
+ }
+ #d2{width: 100%;
+ position: relative;
+ top:6em;
+ border-top-style:solid;
+ border-top-width:thin;
+ }
+ #d3{width: 80%;
+ position: relative;
+ left:2em;
+ top:5em;
+ 
+ border-bottom-style:solid;
+ border-bottom-width:thin;
+ }
+ #d4{width: 80%;
+ position: relative;
+ left:2em;
+ top:2em;
+ border-bottom-style:;
+ border-bottom-width:thin;
+ }
+ #a1{position: relative;
+ left:9.5em;
+ top:-0.1em;
+ color: teal;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+ text-shadow:1px 1px 2px #222;
+ }
+ #p2,#p3,#p5{color: #4D5656;
+ text-shadow:1px 1px 2px #222;
+ font-size: 12px;
+ font-family: "Caflisch Script Pro",cursive;
+ -webkit-transition:color 5s ease;
+ -moz-transition:color 5s ease;
+ -o-transition:color 5s ease;
+ -ms-transition:color 10s ease;
+ transition:color 5s ease;
+ }
+ #p2,#p5:hover{color: violet;
+ }
+ #h2,#h3{position: absolute;
+ left:1px;
+ top:4px;
+ color: #f0f0f0;
+ text-shadow:0px 0px 0px #666,
+ -1px -1px 0px #666,
+ -2px -2px 0px #666,
+ -3px -3px 0px #666,
+ -4px -4px 0px, #666,
+ -5px -5px 0px, #666,
+ -6px -6px 0px, #000;
+ 1px 1px 5px #ccc,
+ 2px 2px 5px #ccc,
+ 3px 3px 5px #ccc,
+ 4px 4px 5px #ccc,
+ 5px 5px 5px #ccc,
+ 6px 6px 5px #ccc;
+  text-shadow:
+ 0px 0px 0px #888,
+ -1px -1px 0px #777,
+ -2px -2px 1px #666,
+ -3px -3px 1px #555,
+ -4px -4px 2px #444,
+ -5px -5px 3px #333,
+ -6px -6px 4px #000;
+ }
+ .im{width: 20%;
+ position: relative;
+ top:3em;
+ }
+ 
+ 
