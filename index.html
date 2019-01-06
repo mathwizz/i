@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <head>
+	 <title>Untitled</title>
+	 <meta charset="UTF-8"/>
+	 <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	 <link rel="stylesheet" href="" type="text/css"/>
+	 
+	 <script>
+	 
+	if(window.XMLHttpRequest){
+	
+	req = new XMLHttpRequest();
+	
+	}
+	
+	else{
+	
+	req = ActiveXObject("Microsoft.XMLHTTP");
+	
+	}
+	
+	req.open('GET','https://ghibliapi.herokuapp.com/films',true);
+	
+	req.onload = function(){
+	
+	if(req.status>=200 && req.status<400){
+	
+var data = JSON.parse(this.req);
+
+data.forEach(movie=>{document.write(movie.title);
+});
+	
+	}
+	else{
+	
+	alert("Error encountered");
+	
+	}
+	
+	}
+	
+	req.send();
+ 
+	 </script>
+	 
+	 </head>
+	 </body>
+	 
+	 <noscript>
+	 Your browser does not support JavaScript
+	 </noscript>
+	
+	 </body>
+ </html>
